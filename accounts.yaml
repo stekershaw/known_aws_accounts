@@ -446,7 +446,7 @@
   accounts: ['013241004608','066635153087','151742754352','296578399912','455263428931','491585149902','558608220178','590381155156','602401143452','759879836304','800184023465','877085696533','900612956339','900889452093','918309763551','961992271922']
 - name: 'Vanta'
   source: ['https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization']
-  accounts: ['956993596390']
+  accounts: ['956993596390', '850507053895', '654654195764']
 - name: 'Drata'
   source: ['https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['269135526815','085540434294','809336252980']
