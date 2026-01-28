@@ -738,5 +738,8 @@
 - name:  'Determinate Systems'
   source: ['https://determinate.systems/blog/nixos-amis/']
   accounts: ['535002876703']
+- name:  'RunsOn'
+  source: ['https://runs-on.com/blog/official-runner-images-for-aws/']
+  accounts: ['135269210855']
 
 
