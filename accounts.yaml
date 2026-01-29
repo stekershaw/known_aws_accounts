@@ -47,8 +47,10 @@
   accounts: ['540339316802']
 - name: 'ELB logs'
   type: 'aws'
-  source: ['https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html']
-  accounts: ['127311923021', '033677994240', '027434742980', '797873946194', '985666609251', '054676820928', '156460612806', '652711504416', '009996457667', '582318560864', '600734575887', '383597477331', '114774131450', '783225319266', '718504428378', '507241528517', '048591011584', '638102146993', '037604701340']
+  source:
+    - 'https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html'
+    - 'https://docs.aws.amazon.com/solutions/latest/clickstream-analytics-on-aws/ingestion-endpoint.html'
+  accounts: ['127311923021', '033677994240', '027434742980', '797873946194', '098369216593', '754344448648', '589379963580', '718504428378', '383597477331', '600734575887', '114774131450', '783225319266', '582318560864', '985666609251', '054676820928', '156460612806', '652711504416', '635631232127', '009996457667', '897822967062', '076674570225', '507241528517', '190560391635', '048591011584', '638102146993', '037604701340']
 - name: 'Redshift logs'
   type: 'aws'
   source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html']
@@ -678,7 +680,7 @@
 - name: 'GuardDuty service accounts'
   type: 'aws'
   source: ['https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html']
-  accounts: ['652050842985','178123968615','669213148797','447226417196','913179291432','089661699081','039163547507','874749492622','247460962669','124839743349','175877067165','894794104037','002294850712','283769539786','310125036783','866607715269','693780578038','448721096076','480864352451','546914126324','682251015962','353488359550','009160069308','936182149045','867642063380','619233833001','977238331021','249472122084','404001805210','957664736811','452118225523','828603743433']
+  accounts: ['652050842985','178123968615','669213148797','447226417196','913179291432','089661699081','039163547507','874749492622','247460962669','124839743349','175877067165','894794104037','002294850712','283769539786','310125036783','866607715269','693780578038','448721096076','480864352451','546914126324','682251015962','353488359550','009160069308','936182149045','867642063380','619233833001','977238331021','249472122084','404001805210','957664736811','452118225523','828603743433','557690616787','863518437308','226283551151','226300430612']
 - name: 'Upwind'
   source: ['https://docs.upwind.io/public/getting-started/connect-cloud-account/aws/v1/organization#run-cloudformation-stackset-template', 'https://cfn.upwind.io.s3.amazonaws.com/onboarding/latest.yaml']
   accounts: ['340457201789']
@@ -730,5 +732,14 @@
 - name:  'Mixpanel'
   source: ['https://docs.mixpanel.com/docs/data-pipelines/integrations/aws-s3']
   accounts: ['485438090326']
+- name:  'NixOS'
+  source: ['https://nixos.github.io/amis/']
+  accounts: ['427812963091']
+- name:  'Determinate Systems'
+  source: ['https://determinate.systems/blog/nixos-amis/']
+  accounts: ['535002876703']
+- name:  'RunsOn'
+  source: ['https://runs-on.com/blog/official-runner-images-for-aws/']
+  accounts: ['135269210855']
 
 
