@@ -741,5 +741,12 @@
 - name:  'RunsOn'
   source: ['https://runs-on.com/blog/official-runner-images-for-aws/']
   accounts: ['135269210855']
+- name: 'Marketplace'
+  type: 'aws'
+  source:
+    - 'https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/'
+    - 'https://anywhere.eks.amazonaws.com/docs/osmgmt/artifacts/'
+    - 'https://registry.terraform.io/modules/rubrikinc/rubrik-cloud-cluster-elastic-storage/aws/1.6.0?tab=inputs'
+  accounts: ['679593333241','345084742485']
 
 
