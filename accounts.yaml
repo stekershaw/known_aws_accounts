@@ -469,7 +469,7 @@
   source: ['https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role']
   accounts: ['217452466226']
 - name: 'Canonical'
-  source: ['https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/']
+  source: ['https://ubuntu.com/server/docs/cloud-images/amazon-ec2','https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/']
   accounts: ['099720109477','513442679011','837727238323']
 - name: 'Archera'
   source: ['https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id']
