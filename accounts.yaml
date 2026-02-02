@@ -751,5 +751,3 @@
 - name: 'Red Hat Enterprise Linux AMIs'
   source: ['https://access.redhat.com/solutions/15356']
   accounts: ['309956199498','219670896067']
-
-
