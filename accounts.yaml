@@ -663,10 +663,10 @@
   source: ['https://docs.snowplow.io/docs/get-started/snowplow-bdp/private-managed-cloud/setup-guide-aws/']
   accounts: ['793733611312']
 - name: 'Qleet'
-  source: [' https://docs.qleet.io/guides/add-aws-account/']
+  source: ['https://docs.qleet.io/guides/add-aws-account/']
   accounts: ['983530947477']
 - name: 'Doppler'
-  source: [' https://docs.doppler.com/docs/aws-iam']
+  source: ['https://docs.doppler.com/docs/aws-iam']
   accounts: ['299900769157']
 - name: 'Improvado'
   source: ['https://improvado.io/docs/aws-s3-destination']
