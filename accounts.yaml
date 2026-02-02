@@ -748,5 +748,8 @@
     - 'https://anywhere.eks.amazonaws.com/docs/osmgmt/artifacts/'
     - 'https://registry.terraform.io/modules/rubrikinc/rubrik-cloud-cluster-elastic-storage/aws/1.6.0?tab=inputs'
   accounts: ['679593333241','345084742485']
+- name: 'Red Hat Enterprise Linux AMIs'
+  source: ['https://access.redhat.com/solutions/15356']
+  accounts: ['309956199498','219670896067']
 
 
